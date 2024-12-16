@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Heaven</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    >
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    >
+    <link rel="stylesheet" href="/styles/estilos.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    >
+  </head>
+
+  <body>
+    <header class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <div id="top"></div>
+        <a class="navbar-brand font-weight-bold" href="#top"
+          >Home<span class="font-weight-normal">Heaven</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#top">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#productos-principales">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactos.html">Contactos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <div class="slider">
+      <input type="radio" id="nav1" name="nav" checked>
+      <input type="radio" id="nav2" name="nav">
+      <input type="radio" id="nav3" name="nav">
+
+      <div class="slides">
+        <div class="slide">
+          <img src="./images/0000.png" alt="Слайд 1">
+        </div>
+        <div class="slide">
+          <img src="./images/mueble1.jpg" alt="Слайд 2">
+        </div>
+        <div class="slide">
+          <img src="./images/mueble000.jpg" alt="Слайд 3">
+        </div>
+      </div>
+
+      <div class="caption">
+        HomeHeaven – Creando espacios de ensueño para tu hogar
+      </div>
+
+      <div class="navigation-controls">
+        <label for="nav1"></label>
+        <label for="nav2"></label>
+        <label for="nav3"></label>
+      </div>
+    </div>
+
+    <div class="advantages">
+      <div class="adv-item">
+        <img src="./images/chair.png" alt="Comodidad">
+        <h3>COMODIDAD</h3>
+        <p>Compra desde casa, sin salir.</p>
+      </div>
+      <div class="adv-item">
+        <img src="./images/geometry.png" alt="Variedad">
+        <h3>VARIEDAD</h3>
+        <p>Más modelos y opciones disponibles.</p>
+      </div>
+      <div class="adv-item">
+        <img src="./images/discount.png" alt="Ofertas">
+        <h3>OFERTAS</h3>
+        <p>Descuentos y precios más accesibles.</p>
+      </div>
+    </div>
+
+    <div class="new-products">
+      <h1 class="new-products-title">Nuevos productos</h1>
+      <div class="category">
+        <div class="category-left">
+          <h2>Salón</h2>
+          <div class="products">
+            <div class="product-card">
+              <img src="./images/mueble3.png" alt="Product 1">
+              <h3>Ekenaset</h3>
+              <p>Sillón</p>
+              <p class="price">299999 $</p>
+              <p class="secondary-price">239999 $ con efectivo</p>
+            </div>
+            <div class="product-card">
+              <img src="./images/mueble2.png" alt="Product 2">
+              <h3>Angersby</h3>
+              <p>Sofá de 3 plazas, Knisa gris claro</p>
+              <p class="price">199999 $</p>
+              <p class="secondary-price">159999 $ con efectivo</p>
+            </div>
+          </div>
+        </div>
+        <div class="category-right">
+          <h2>Dormitorio</h2>
+          <div class="products">
+            <div class="product-card">
+              <img src="./images/mueble4.png" alt="Product 5">
+              <h3>Brimnes</h3>
+              <p>Cómoda de 3 cajones</p>
+              <p class="price">89999 $</p>
+              <p class="secondary-price">71999 $ con efectivo</p>
+            </div>
+            <div class="product-card">
+              <img src="./images/mueble5.png" alt="Product 6">
+              <h3>Kallax</h3>
+              <p>Estante, blanco</p>
+              <p class="price">64999 $</p>
+              <p class="secondary-price">51999 $ con efectivo</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="see-more-container">
+        <a href="productos.html">
+          <button class="see-more-button">Ver más</button>
+        </a>
+      </div>
+    </div>
+
+    <div class="main-products" id="productos-principales">
+      <h1 class="main-products-title">Productos Principales</h1>
+
+      <div class="main-products-grid">
+        <div class="product-card">
+          <img src="./images/mueble6.png" alt="Product 1">
+          <h3>Nordviken</h3>
+          <p>Mesa extensible</p>
+          <p class="price">319999 $</p>
+          <p class="secondary-price">399999 $ con tarjeta</p>
+        </div>
+        <div class="product-card">
+          <img src="./images/mueble7.png" alt="Product 2">
+          <h3>Skansans</h3>
+          <p>Silla</p>
+          <p class="price">79999 $</p>
+          <p class="secondary-price">99999 $ con tarjeta</p>
+        </div>
+        <div class="product-card">
+          <img src="./images/mueble8.png" alt="Product 3">
+          <h3>Elegro</h3>
+          <p>Mesa de cocina</p>
+          <p class="price">479999 $</p>
+          <p class="secondary-price">599999 $ con tarjeta</p>
+        </div>
+        <div class="product-card">
+          <img src="./images/mueble9.png" alt="Product 4">
+          <h3>Escandi Loft</h3>
+          <p>Сama</p>
+          <p class="price">80000 $</p>
+          <p class="secondary-price">100000 $ con tarjeta</p>
+        </div>
+        <div class="product-card">
+          <img src="./images/mueble10.png" alt="Product 5">
+          <h3>Verona</h3>
+          <p>Cama con cajones</p>
+          <p class="price">220000 $</p>
+          <p class="secondary-price">275000 $ con tarjeta</p>
+        </div>
+        <div class="product-card">
+          <img src="./images/mueble11.png" alt="Product 6">
+          <h3>EcoLínea</h3>
+          <p>Guardarropa</p>
+          <p class="price">272000 $</p>
+          <p class="secondary-price">340000 $ con tarjeta</p>
+        </div>
+        <div class="product-card">
+          <img src="./images/mueble12.png" alt="Product 7">
+          <h3>Sueño</h3>
+          <p>Tocador para ropa</p>
+          <p class="price">360000 $</p>
+          <p class="secondary-price">450000 $ con tarjeta</p>
+        </div>
+        <div class="product-card">
+          <img src="./images/mueble13.png" alt="Product 8">
+          <h3>Esencia</h3>
+          <p>Organizador de cosas</p>
+          <p class="price">400000 $</p>
+          <p class="secondary-price">500000 $ con tarjeta</p>
+        </div>
+      </div>
+    </div>
+    <a href="#top" class="scroll-to-top"> Arriba </a>
+
+    <div class="contact-us-container">
+      <h2 class="contact-us-title">¡Contáctenos y recibí todas las ofertas!</h2>
+      <form class="contact-us-form">
+        <input type="email" class="contact-email-input" placeholder="E-mail">
+        <button type="submit" class="contact-submit-btn">Enviar</button>
+      </form>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <a class="navbar-brand font-weight-bold" href="#top"
+          >Home<span class="font-weight-normal">Heaven</span></a>
+
+        <ul class="footer-nav">
+          <li class="nav-item"><a class="nav-link" href="#top">Home</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#productos-principales">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Contactos</a></li>
+        </ul>
+
+        <div class="footer-right">
+          <div class="social-title">Nuestros redes</div>
+          <div class="social-icons">
+            <a
+              href="https://www.instagram.com"
+              class="social-icon"
+              target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://www.facebook.com"
+              class="social-icon"
+              target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com" class="social-icon" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
